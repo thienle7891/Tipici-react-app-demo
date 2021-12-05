@@ -1,0 +1,39 @@
+@media (min-width: 1024px) {
+    
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .section {
+        margin-top: 50px;
+    }
+    .content-header h2{
+        color: rgb(61, 104, 137);
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .content-header p{
+        color: rgb(136, 173, 185);
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+}
+
+@media (max-width: 740px) {
+    .section {
+        margin-top: 12px;
+    }
+    .content-header h2{
+        color: rgb(61, 104, 137);
+        font-size: 24px;
+        font-weight: 600;
+        margin: 12px 12px;
+    }
+    .content-header p{
+        color: rgb(136, 173, 185);
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0 12px;
+
+    }
+}

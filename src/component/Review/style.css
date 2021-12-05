@@ -1,0 +1,15 @@
+.review {
+    margin-top: 24px;
+    max-width: 800px;
+}
+.review-item {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgb(136, 173, 185);
+    height: 120px;
+}
+.review-item h3 {
+    margin-left: 24px;
+    font-size: 24px;
+    color: rgb(61, 104, 137);
+}

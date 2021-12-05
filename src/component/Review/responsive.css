@@ -1,0 +1,32 @@
+@media (min-width: 1024px) {
+    
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .review {
+        margin-top: 24px;
+    }
+    .review-item {
+        /* margin-left: 12px; */
+        /* height: 100px; */
+    }
+    .review-item h3 {
+        margin-left: 24px;
+        font-size: 16px;
+        color: rgb(61, 104, 137);
+    }
+}
+
+@media (max-width: 740px) {
+    
+    .review-item {
+        margin-left: 12px;
+        height: 100px;
+
+    }
+    .review-item h3 {
+        margin: 0 24px;
+        font-size: 16px;
+        color: rgb(61, 104, 137);
+    }
+}
